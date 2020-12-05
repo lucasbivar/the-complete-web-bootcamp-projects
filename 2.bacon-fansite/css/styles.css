@@ -1,0 +1,39 @@
+/**************************TAG SELECTORS**************************/
+body {
+  background-color: gold;
+}
+h1 {
+  color: red;
+  font-size: 120px;
+  margin-bottom: 0px;
+  margin-top: 75px;
+}
+
+p {
+  color: red;
+  font-size: 25px;
+}
+
+img {
+  background-color: rgba(128, 128, 128, 0.8);
+  border-style: solid;
+  border-radius: 10px;
+  border-color: blue;
+}
+
+img:hover {
+  background-color: rgba(212, 56, 56, 0.8);
+}
+/**************************CLASS SELECTORS**************************/
+.bacon {
+  border-color: red;
+}
+.broccoli {
+  border-color: green;
+}
+
+/**************************CLASS SELECTORS**************************/
+/*Different from Classes Selectors, we can use just one time*/
+#different-paragraph {
+  color: white;
+}
