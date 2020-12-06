@@ -1,0 +1,195 @@
+/***********************TAG SELECTORS***********************/
+body {
+  color: #101312;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  /*100% = 16px = 1em
+    x%   = 90px
+  */
+}
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  font-size: 2rem;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #b3fdf0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+a:hover {
+  color: #e4f9f5;
+}
+/***********************CLASS SELECTORS***********************/
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.skill-row {
+  width: 50%;
+  margin: 150px auto 100px auto;
+  text-align: left;
+}
+.profile {
+  width: 50%;
+  margin: auto;
+}
+.intro {
+  margin: 35px auto;
+}
+.profile-image {
+  width: 40%;
+}
+.contact-message {
+  width: 35%;
+  margin: 40px auto 60px;
+}
+.copyright {
+  color: #e4f9f5;
+  font-size: 0.7rem;
+  padding: 20px 0;
+}
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.guitar-image {
+  width: 25%;
+  float: right;
+  margin: auto 0px auto 30px;
+}
+.programming-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.msg {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  width: 60%;
+  margin: 0 auto;
+}
+.typing h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #11999e; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.1em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #11999e;
+  }
+}
+.btn {
+  -moz-box-shadow: 0px 8px 13px -7px #11999e;
+  -webkit-box-shadow: 0px 8px 13px -7px #11999e;
+  box-shadow: 0px 8px 13px -7px #11999e;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #66bfbf),
+    color-stop(1, #11999e)
+  );
+  background: -moz-linear-gradient(center top, #66bfbf 5%, #11999e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66bfbf', endColorstr='#11999e');
+  background-color: #66bfbf;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  height: 49px;
+  line-height: 49px;
+  width: 166px;
+  text-decoration: none;
+  text-align: center;
+}
+.btn:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #11999e),
+    color-stop(1, #66bfbf)
+  );
+  background: -moz-linear-gradient(center top, #11999e 5%, #66bfbf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999e', endColorstr='#66bfbf');
+  background-color: #11999e;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
