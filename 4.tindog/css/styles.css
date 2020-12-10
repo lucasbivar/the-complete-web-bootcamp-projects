@@ -1,0 +1,92 @@
+/* body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+}
+#title {
+  background-color: #ff4c68;
+  font-weight: "Montserrat";
+  color: #fff;
+}
+.container-fluid {
+  padding: 3% 5%;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+  font-weight: 400;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* Download Buttons */
+.download-button {
+  color: #fff;
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  /* My modifications */
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#features {
+  padding: 7% 14%;
+}
+
+.feature-box {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
