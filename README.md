@@ -1,10 +1,10 @@
 
  <img align="center" src="https://i.imgur.com/szNEUar.gif">
- <h3 align="center">👨‍💻 Some projects from The Complete Web Bootcamp Course from Udemy by Dr. Angela Yu 👨‍💻</h3>
+ <h4 align="center">👨‍💻 Some projects from The Complete Web Bootcamp Course from Udemy by Dr. Angela Yu 👨‍💻</h4>
 
 <hr>
 
-# 💡 Technologies
+## 💡 Technologies
   <p align="left">
     <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
     <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
@@ -12,19 +12,19 @@
   </p>
 <hr>
 
-# 📍 My CV
+## 📍 My CV
  - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/1.my-cv)
  - 🖥  [Site](https://lucas-bivar-cv.netlify.app/)
   
-# 📍 Bacon Fansite
+## 📍 Bacon Fansite
  - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/2.bacon-fansite)
  - 🖥  [Site](https://bacon-fansite.netlify.app/)
   
-# 📍 My Web Site
+## 📍 My Web Site
  - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/3.my-web-site)
  - 🖥  [Site](https://lucas-bivar.netlify.app/)
  
-# 📍 Tindog
+## 📍 Tindog
  - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/4.tindog)
  - 🖥  [Site](https://tindog-pets.netlify.app/) 
  
