@@ -1,6 +1,6 @@
 
  <img align="center" src="https://i.imgur.com/szNEUar.gif">
- <h4 align="center">👨‍💻 Some projects from The Complete Web Bootcamp Course from Udemy by Dr. Angela Yu 👨‍💻</h4>
+ <h4 align="center">👨‍💻 Some projects from The Complete Web Bootcamp Course from Udemy by Dr. Angela Yu</h4>
 
 <hr>
 
