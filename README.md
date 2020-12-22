@@ -9,6 +9,7 @@
     <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
     <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
     <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="35" height="35"/>
+    <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="35height="35/>
   </p>
 <hr>
 
@@ -27,6 +28,14 @@
 ## 📍 Tindog
  - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/4.tindog)
  - 🖥  [Site](https://tindog-pets.netlify.app/) 
+ 
+## 📍 Dice Game
+ - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/5.dice)
+ - 🖥  [Site](https://online-dice.netlify.app/) 
+ 
+ ## 📍 Online Drum Kit
+ - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/6.drum-kit)
+ - 🖥  [Site](https://online-drum-kit.netlify.app/) 
  
 <hr> 
  
