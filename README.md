@@ -11,7 +11,7 @@
     <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="35" height="35"/>
     <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/ac557d6ff33ff370a5db99f97aeab35ea5c67fbd/icons/jquery/jquery-original-wordmark.svg" alt="jquery" width="35" height="35"/>
- 
+    <img src="https://camo.githubusercontent.com/8b48537ee7aeb3622f1cf50ff63a52f299d9892bef8b926322633d478c502cad/68747470733a2f2f64657669636f6e2e6465762f64657669636f6e2e6769742f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667" alt="nodejs" width="35" height="35">
   </p>
 <hr>
 
@@ -42,6 +42,10 @@
  ## 📍 Simon Game
  - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/7.simon)
  - 🖥  [Site](https://simon-online.netlify.app/) 
+ 
+ ## 📍 Music Newsletter
+ - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/8.newsletter)
+ - 🖥  [Site](https://music-newsletter.herokuapp.com/) 
  
 <hr> 
  
