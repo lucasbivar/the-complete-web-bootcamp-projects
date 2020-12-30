@@ -7,15 +7,21 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>It's a <%= kindOfDay %>!</h1>
-  <ul>
+  <div class="box" id="heading">
+    <h1><%= kindOfDay %></h1>
+  </div>
+  <div class="box">
     <%for(var i = 0; i < newListItem.length; i++){ %>
-    <li><%= newListItem[i] %></li>
+      <div class="item">
+        <input type="checkbox">
+        <p><%= newListItem[i] %></p> 
+      </div>
     <%}%>
-  </ul>
-  <form action="/" method="post">
-    <input type="text" name="newItem">
-    <button type="submit" name="button">Add</button>
-  </form>
+
+    <form class="item" action="/" method="post">
+      <input type="text" name="newItem" placeholder="New Item" autocomplete="off" autofocus>
+      <button type="submit" name="button">+</button>
+    </form>
+  </div>
 </body>
 </html>

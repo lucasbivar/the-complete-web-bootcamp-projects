@@ -23,7 +23,9 @@ app.get('/', function(req, res){
 
 app.post('/', function(req, res){
   let item = req.body.newItem;
-  items.push(item);
+  if(item != ""){
+    items.push(item);
+  }
   res.redirect("/");
 });
 
