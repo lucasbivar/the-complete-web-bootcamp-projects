@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!--Open Graph's-->
+  <meta property="og:image" content="https://i.imgur.com/A1sTsPK.png"/>
+  <meta property="og:title" content="To Do List"/>
+  <meta property="og:description" content="List all of the tasks that you have to do, or things that you want to do."/>
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#A683E3">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#A683E3">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#A683E3">
+</head>
+<body>
+  <div class="box" id="heading">
+    <h1><%= listTitle %></h1>
+  </div>
+  <div class="box">
+    <%for(var i = 0; i < newListItem.length; i++){ %>
+      <div class="item">
+        <input type="checkbox">
+        <p><%= newListItem[i] %></p> 
+      </div>
+    <%}%>
+
+    <form class="item" action="/" method="post">
+      <input type="text" name="newItem" placeholder="New Item" autocomplete="off" autofocus>
+      <button type="submit" name="list" value=<%= listTitle %>>+</button>
+    </form>
+  </div>
+  <footer>
+    Copyright 2020 Lucas Bivar
+  </footer>
+</body>
+</html>
