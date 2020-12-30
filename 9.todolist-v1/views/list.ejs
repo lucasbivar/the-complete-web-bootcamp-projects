@@ -8,9 +8,9 @@
 <body>
   <h1>It's a <%= kindOfDay %>!</h1>
   <ul>
-    <li>Buy Food</li>
-    <li>Cook Food</li>
-    <li>Eat Food</li>
+    <%for(var i = 0; i < newListItem.length; i++){ %>
+    <li><%= newListItem[i] %></li>
+    <%}%>
   </ul>
   <form action="/" method="post">
     <input type="text" name="newItem">
