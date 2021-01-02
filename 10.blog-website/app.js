@@ -48,9 +48,7 @@ app.get('/posts/:postName', function(req, res){
   const requestedTitle = _.lowerCase(req.params.postName);
   for(var i = 0; i < posts.length; i++){
     if(_.lowerCase(posts[i].title) === requestedTitle){
-      console.log("Match found!");
-    }else{
-      console.log("Not found!");
+      res.render("post.ejs", {postTitle: posts[i].title, postContent: posts[i].content});
     }
   }
 });
