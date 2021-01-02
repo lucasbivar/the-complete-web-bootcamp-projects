@@ -60,6 +60,11 @@
 - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/9.todolist-v1)
 - 🖥 [Site](https://purple-todolist.herokuapp.com/)
 
+## 📍 Daily Jornal - Blog Website
+
+- 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/10.blog-website)
+- 🖥 [Site](https://daily-jornal.herokuapp.com/)
+
 <hr> 
  
 ## 🤓 Author 
