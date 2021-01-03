@@ -10,7 +10,6 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="35" height="35"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/nodejs/nodejs-original.svg" alt="nodejs" width="35" height="35">
-    <img src="https://camo.githubusercontent.com/8b48537ee7aeb3622f1cf50ff63a52f299d9892bef8b926322633d478c502cad/68747470733a2f2f64657669636f6e2e6465762f64657669636f6e2e6769742f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667" alt="nodejs" width="35" height="35">
   </p>
 <hr>
 
