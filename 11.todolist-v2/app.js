@@ -29,18 +29,25 @@ const item3 = new Item({name: "<-- Hit this to delete an item."});
 
 const defautItems = [item1, item2, item3];
 
-Item.insertMany(defautItems, function(err){
-  if(err){
-    console.log(err);
-  }else{
-    console.log("Succesfully saved default items to DB.");
-  }
-})
 
 app.get("/", function(req, res) {
   const day = date.getDate();
 
-  res.render("list", {listTitle: day, newListItems: items});
+  Item.find({}, function(err, foundItems){
+    if(foundItems.length === 0){
+      Item.insertMany(defautItems, function(error){
+        if(error){
+          console.log(error);
+        }else{
+          console.log("Succesfully saved default items to DB.");
+        }
+      });
+      res.redirect('/');
+    }else{
+      res.render("list", {listTitle: day, newListItems: foundItems});
+    }
+
+  });
 
 });
 
