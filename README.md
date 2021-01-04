@@ -12,6 +12,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/ac557d6ff33ff370a5db99f97aeab35ea5c67fbd/icons/jquery/jquery-original-wordmark.svg" alt="jquery" width="35" height="35"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/nodejs/nodejs-original.svg" alt="nodejs" width="35" height="35">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/c5378d6c2510ffa0b3e4475af95618a8048d6cf1/icons/mongodb/mongodb-original-wordmark.svg" alt="mongo-db" width="35" height="35">
   </p>
 <hr>
 
@@ -69,6 +70,11 @@
 
 - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/11.todolist-v2)
 - 🖥 [Site](https://todolist-with-mdb.herokuapp.com/)
+
+## 📍 Daily Jornal - Blog Website v2
+
+- 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/12.blog-website-v2)
+- 🖥 [Site](https://daily-jornal-db.herokuapp.com/)
 
 <hr> 
  
