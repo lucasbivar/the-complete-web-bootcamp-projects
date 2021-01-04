@@ -53,23 +53,20 @@ app.get("/", function(req, res) {
 
 app.post("/", function(req, res){
 
-  const item = req.body.newItem;
-
-  if (req.body.list === "Work") {
-    workItems.push(item);
-    res.redirect("/work");
-  } else {
-    items.push(item);
-    res.redirect("/");
-  }
+  const item = new Item({name: req.body.newItem});
+  item.save();
+  res.redirect("/");
+ 
 });
 
-app.get("/work", function(req,res){
-  res.render("list", {listTitle: "Work List", newListItems: workItems});
-});
-
-app.get("/about", function(req, res){
-  res.render("about");
+app.post('/delete', function(req, res){
+  const checkedItemId = req.body.checkboxId;
+  Item.deleteOne({_id: checkedItemId}, function(err){
+    if(!err){ 
+      console.log("Succesfully deleted.");
+      res.redirect('/');
+    }
+  });
 });
 
 app.listen(3000, function() {
