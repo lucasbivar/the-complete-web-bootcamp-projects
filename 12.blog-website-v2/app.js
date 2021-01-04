@@ -26,10 +26,14 @@ const postSchema = mongoose.Schema({
 
 const Post = mongoose.model("Post", postSchema);
 
-let posts = [];
+
 
 app.get('/', function(req, res){
-  res.render('home.ejs', {startingContent: homeStartingContent, posts: posts});
+  Post.find({}, function(err, foundPosts){
+    if(!err){
+      res.render('home.ejs', {startingContent: homeStartingContent, posts: foundPosts});
+    }
+  });
 });
 
 app.get('/about', function(req, res){
@@ -45,7 +49,7 @@ app.get('/compose', function(req, res){
 });
 
 app.post('/compose', function(req, res){
-  
+
   const post = new Post({
     title: req.body.postTitle,
     content: req.body.postBody,
