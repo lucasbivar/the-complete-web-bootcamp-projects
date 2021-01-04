@@ -2,6 +2,7 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
+const mongoose = require('mongoose');
 const date = require(__dirname + "/date.js");
 
 const app = express();
@@ -14,9 +15,30 @@ app.use(express.static("public"));
 const items = ["Buy Food", "Cook Food", "Eat Food"];
 const workItems = [];
 
-app.get("/", function(req, res) {
+mongoose.connect('mongodb://localhost:27017/todolistDB',  { useUnifiedTopology: true, useNewUrlParser: true });
 
-const day = date.getDate();
+const itemScheme = mongoose.Schema({
+  name: String,
+});
+
+const Item = mongoose.model("Item",itemScheme);
+
+const item1 = new Item({name: "Welcome to your todolist!"});
+const item2 = new Item({name: "Hit the + button to add a new item."});
+const item3 = new Item({name: "<-- Hit this to delete an item."});
+
+const defautItems = [item1, item2, item3];
+
+Item.insertMany(defautItems, function(err){
+  if(err){
+    console.log(err);
+  }else{
+    console.log("Succesfully saved default items to DB.");
+  }
+})
+
+app.get("/", function(req, res) {
+  const day = date.getDate();
 
   res.render("list", {listTitle: day, newListItems: items});
 
