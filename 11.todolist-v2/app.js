@@ -12,8 +12,6 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const items = ["Buy Food", "Cook Food", "Eat Food"];
-const workItems = [];
 
 mongoose.connect('mongodb://localhost:27017/todolistDB',  { useUnifiedTopology: true, useNewUrlParser: true });
 
@@ -29,6 +27,12 @@ const item3 = new Item({name: "<-- Hit this to delete an item."});
 
 const defautItems = [item1, item2, item3];
 
+const listSchema = {
+  name: String,
+  items: [itemScheme]
+};
+
+const List = mongoose.model("List", listSchema);
 
 app.get("/", function(req, res) {
   const day = date.getDate();
@@ -65,6 +69,23 @@ app.post('/delete', function(req, res){
     if(!err){ 
       console.log("Succesfully deleted.");
       res.redirect('/');
+    }
+  });
+});
+
+app.get('/:customListName', function(req, res){
+
+  const customListName = req.params.customListName;
+  
+  List.findOne({name: customListName}, function(err, foundList){
+    if(!err){
+      if(!foundList){
+        const list = new List({name: customListName, items: defautItems});
+        list.save();
+        res.redirect('/'+customListName);
+      }else{
+        res.render("list", {listTitle: foundList.name, newListItems: foundList.items});
+      }
     }
   });
 });
