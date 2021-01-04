@@ -12,7 +12,6 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "lodash": "^4.17.20",
     "mongoose": "^5.11.10",
     "nodemon": "^2.0.6"
   }
