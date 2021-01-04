@@ -65,6 +65,11 @@
 - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/10.blog-website)
 - 🖥 [Site](https://daily-jornal.herokuapp.com/)
 
+## 📍 To Do List v2
+
+- 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/11.todolist-v2)
+- 🖥 [Site](https://todolist-with-mdb.herokuapp.com/)
+
 <hr> 
  
 ## 🤓 Author 
