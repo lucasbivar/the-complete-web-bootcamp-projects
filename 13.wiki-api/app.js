@@ -108,7 +108,15 @@ app.route("/articles/:articleTitle")
 })
 
 .delete(function(req, res) {
-  
+  const articleTitle = req.params.articleTitle;
+
+  Article.deleteOne({title: articleTitle}, function(err) {
+    if (!err){
+      res.send("Successfully deleted the content of the selected article.");
+    } else {
+      res.send(err);
+    }
+  });
 });
 
 app.listen(3000, function(){
