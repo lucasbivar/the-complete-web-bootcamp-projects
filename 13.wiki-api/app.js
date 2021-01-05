@@ -73,6 +73,40 @@ app.route("/articles/:articleTitle")
   });
 })
 
+//PUT - OVERWRITE THE DOCUMENT
+//PATCH - UPDATE THE FIELDS
+
+.put(function(req, res) {
+  const articleTitle = req.params.articleTitle;
+
+  Article.findOneAndUpdate(
+    {title: articleTitle},
+    {title: req.body.title, content: req.body.content},
+    {overwrite: true},
+    function(err){
+      if (!err){
+        res.send("Successfully updated the content of the selected article.");
+      } else {
+        res.send(err);
+      }
+    });
+})
+
+.patch(function(req, res) {
+  const articleTitle = req.params.articleTitle;
+
+  Article.updateOne(
+    {title: articleTitle},
+    {title: req.body.title, content: req.body.content},
+    function(err){
+      if (!err){
+        res.send("Successfully updated the content of the selected article.");
+      } else {
+        res.send(err);
+      }
+    });
+});
+
 app.listen(3000, function(){
   console.log("Server started on port 3000");
 });
