@@ -97,7 +97,7 @@ app.route("/articles/:articleTitle")
 
   Article.updateOne(
     {title: articleTitle},
-    {title: req.body.title, content: req.body.content},
+    {$set: req.body},
     function(err){
       if (!err){
         res.send("Successfully updated the content of the selected article.");
@@ -105,6 +105,10 @@ app.route("/articles/:articleTitle")
         res.send(err);
       }
     });
+})
+
+.delete(function(req, res) {
+  
 });
 
 app.listen(3000, function(){
