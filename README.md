@@ -76,6 +76,11 @@
 - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/12.blog-website-v2)
 - 🖥 [Site](https://daily-jornal-db.herokuapp.com/)
 
+## 📍 Wiki REST API
+
+- 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/13.wiki-api)
+- 🖥 [Api](https://wiki-restapi.herokuapp.com/articles)
+
 <hr> 
  
 ## 🤓 Author 
