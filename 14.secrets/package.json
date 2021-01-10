@@ -16,8 +16,10 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "mongoose": "^5.11.10",
+    "mongoose-findorcreate": "^3.0.0",
     "nodemon": "^2.0.7",
     "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1"
   }
