@@ -12,12 +12,15 @@
           <form action="/login" method="POST">
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control" name="username">
+              <input type="email" class="form-control border-red" name="username">
             </div>
             <div class="form-group">
               <label for="password">Password</label>
               <input type="password" class="form-control" name="password">
             </div>
+            <% if(invalidLogin){%>
+              <h5 class="red-color">Invalid username or password. Please, try again!</h5>
+            <% }%>
             <button type="submit" class="btn btn-dark">Login</button>
           </form>
 
