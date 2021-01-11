@@ -81,6 +81,11 @@
 - 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/13.wiki-api)
 - 🖥 [Api](https://wiki-restapi.herokuapp.com/articles)
 
+## 📍 Secrets
+
+- 📦 [Repository](https://github.com/lucasbivar/the-complete-web-bootcamp-projects/tree/main/14.secrets)
+- 🖥 [Site](https://show-me-your-secrets.herokuapp.com/)
+
 <hr> 
  
 ## 🤓 Author 
