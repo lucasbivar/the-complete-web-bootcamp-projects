@@ -267,7 +267,7 @@ fieldset[disabled] .btn-bitbucket.focus {
 .open > .dropdown-toggle.btn-dropbox.focus {
   color: #fff;
   background-color: #0a568c;
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.3);
 }
 .btn-dropbox:active,
 .btn-dropbox.active,
